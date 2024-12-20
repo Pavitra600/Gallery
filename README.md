@@ -23,192 +23,188 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 # PROGRAM :
-          <!DOCTYPE html>
-          <html lang="en">
-          <head>
-              <meta charset="UTF-8">
-              <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>FLOWER IMAGE GALLERY</title>
-              <link rel="stylesheet" href="styles.css">
-          </head>
-          <body>
-              <header class="gallery-header">
-                  <h1>FLOWER IMAGE GALLERY</h1>
-                  <p>Explore the beauty of flowers</p>
-              </header>
-              <div class="gallery-container">
-                  <div class="gallery-item">
-                      <img src="ROSE.avif" alt="Rose">
-                      <div class="overlay">
-                          <p>Beautiful Rose</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="Sunflower.jpg" alt="Sunflower">
-                      <div class="overlay">
-                          <p>Sunflower</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="lily.jpg" alt="Lily">
-                      <div class="overlay">
-                          <p>Lily</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="daisy.jpg" alt="Daisy">
-                      <div class="overlay">
-                          <p>Daisy</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="Carnation.jpg" alt="Carnation">
-                      <div class="overlay">
-                          <p>Carnation</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="iris.jpg" alt="Iris">
-                      <div class="overlay">
-                          <p>Iris</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="jasmine.jpg" alt="Jasmine">
-                      <div class="overlay">
-                          <p>Jasmine</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="marigold.jpg" alt="Marigold">
-                      <div class="overlay">
-                          <p>Marigold</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="orchid.jpg" alt="Orchid">
-                      <div class="overlay">
-                          <p>Orchid</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="tulip.jpg" alt="Tulip">
-                      <div class="overlay">
-                          <p>Tulip</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="lavender.jpg" alt="Lavender">
-                      <div class="overlay">
-                          <p>Lavender</p>
-                      </div>
-                  </div>
-                  <div class="gallery-item">
-                      <img src="salvia.jpg" alt="Salvia">
-                      <div class="overlay">
-                          <p>Salvia</p>
-                      </div>
-                  </div>
-              </div>
-          </body>
-          </html>
-          styles.css:
-          
-          
-          body {
-              margin: 0;
-              font-family: 'Arial', sans-serif;
-              background-image: url('bgflower.jpeg'); 
-              background-size: cover; 
-              background-position: center; 
-              background-attachment: fixed; 
-              color: #333;
-          }
-          
-          .gallery-header {
-              text-align: center;
-              padding: 20px;
-              background-color: rgba(255, 255, 255, 0.7); 
-              border-bottom: 2px solid hsl(350, 53%, 39%);
-          }
-          
-          .gallery-header h1 {
-              margin: 0;
-              font-size: 2.5em;
-              color: hsl(350, 53%, 39%);
-          }
-          
-          .gallery-header p {
-              margin: 5px 0 0;
-              font-size: 1.2em;
-              color: hsl(350, 53%, 39%);
-          }
-          
-          
-          .gallery-container {
-              display: grid;
-              grid-template-columns: repeat(6, 1fr); 
-              gap: 20px;
-              padding: 20px;
-              max-width: 1200px;
-              margin: 0 auto;
-          }
-          
-          /* Gallery Items */
-          .gallery-item {
-              position: relative;
-              overflow: hidden;
-              aspect-ratio: 1 / 1; 
-              border-radius: 50%; 
-              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-              transition: transform 0.3s ease-in-out;
-              border: 4px solid  hsl(346, 65%, 32%); 
-          }
-          
-          .gallery-item img {
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-              border-radius: 50%; 
-              transition: transform 0.3s ease;
-              border: 4px solid beige; 
-          }
-          
-          .gallery-item:hover img {
-              transform: scale(1.1);
-              border-color: hsl(346, 50%, 52%); 
-          }
-          
-          
-          .overlay {
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              background: rgba(0, 0, 0, 0.6);
-              color: #fff;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              opacity: 0;
-              transition: opacity 0.3s ease;
-              text-align: center;
-              border-radius: 50%;
-          }
-          
-          .gallery-item:hover .overlay {
-              opacity: 1;
-          }
-          
-          .overlay p {
-              margin: 0;
-              font-size: 1.5em;
-              font-weight: bold;
-          }
-
+                                 
+                              
+                              <!DOCTYPE html>
+                              <html lang="en">
+                              <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>MY GALLERY</title>
+                                <h1>interactive image gallery</h1>
+                                <h2>designed by J.Pavitra</h2>
+                                <style>
+                              
+                                  h1{
+                                  text-align: center;
+                                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                  color: black;
+                                  background-color: antiquewhite;
+                              
+                                  }
+                                  body {
+                                    font-family: Arial, sans-serif;
+                                    margin: 0;
+                                    background-color: #e8eeef;
+                                  }
+                              
+                                  .gallery-container {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    gap: 10px;
+                                    padding: 20px;
+                                    justify-content: center;
+                                  }
+                              
+                                  .gallery-item {
+                                    width: 200px;
+                                    height: 150px;
+                                    overflow: hidden;
+                                    cursor: pointer;
+                                    border-radius: 8px;
+                                    box-shadow: 0 4px 6px rgba(12, 215, 93, 0.1);
+                                  }
+                              
+                                  .gallery-item img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    transition: transform 0.3s ease;
+                                  }
+                              
+                                  .gallery-item:hover img {
+                                    transform: scale(1.1);
+                                  }
+                              
+                                  .lightbox {
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: rgba(0, 0, 0, 0.8);
+                                    display: none;
+                                    align-items: center;
+                                    justify-content: center;
+                                    z-index: 1000;
+                                  }
+                              
+                                  .lightbox-image {
+                                    max-width: 90%;
+                                    max-height: 90%;
+                                    border-radius: 10px;
+                                    box-shadow: 0 4px 10px rgba(223, 123, 8, 0.252);
+                                  }
+                              
+                                  .close {
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 30px;
+                                    font-size: 30px;
+                                    color: #fff;
+                                    cursor: pointer;
+                                    z-index: 1001;
+                                  }
+                              
+                                  .close:hover {
+                                    color: #ff6b6b;
+                                  }
+                                  .h2 {
+                                      text-align: right;
+                                      margin-top:40%;
+                                      background-color: bisque;
+                                      color:black;
+                                      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                      font-size: 30px;
+                              
+                                  }
+                                </style>
+                              </head>
+                              <body>
+                                <center>
+                                <div class="gallery-container">
+                                  <div class="gallery-item">
+                                    <img src="Carnation.jpg" alt="Image 1">
+                                  </div>
+                                  <br>
+                                  <div class="gallery-item">
+                                    <img src="daisy.jpg" alt="Image 2">
+                                  </div>
+                                  <br>
+                                  <div class="gallery-item">
+                                    <img src="iris.jpg" alt="Image 3">
+                                  </div>
+                                  <br>
+                                  <div class="gallery-item">
+                                      <img src="jasmine.jpg" alt="Image 4">
+                                  </div>
+                                  <br>
+                                  <div class="gallery-item">
+                                      <img src="lavender.jpg" alt="Image 5">
+                                  </div>
+                                  <br>
+                                  <div class="gallery-item">
+                                      <img src="tulip.jpg" alt="Image 6">
+                                  </div>
+                              </center>
+                                  <br>
+                                  </div>
+                                <div class="lightbox">
+                                  <span class="close">&times;</span>
+                                  <img class="lightbox-image" src="" alt="Enlarged Image">
+                                </div>
+                                
+                              
+                                <script>
+                                  document.addEventListener('DOMContentLoaded', () => {
+                                    const galleryItems = document.querySelectorAll('.gallery-item img');
+                                    const lightbox = document.querySelector('.lightbox');
+                                    const lightboxImage = document.querySelector('.lightbox-image');
+                                    const closeBtn = document.querySelector('.close');
+                              
+                                    // Open lightbox on image click
+                                    galleryItems.forEach(item => {
+                                      item.addEventListener('click', () => {
+                                        lightbox.style.display = 'flex';
+                                        lightboxImage.src = item.src;
+                                      });
+                                    });
+                              
+                                    closeBtn.addEventListener('click', () => {
+                                      lightbox.style.display = 'none';
+                                      lightboxImage.src = '';
+                                    });
+                              
+                                    lightbox.addEventListener('click', (e) => {
+                                      if (e.target !== lightboxImage) {
+                                        lightbox.style.display = 'none';
+                                        lightboxImage.src = '';
+                                      }
+                                    });
+                                  });
+                                </script>
+                              </body>
+                              </html>
 # OUTPUT:
-![Screenshot 2024-12-16 142020](https://github.com/user-attachments/assets/61b17f0b-afd5-427d-8b11-78ef83b6b6f9)
+![Screenshot (5)](https://github.com/user-attachments/assets/dd57cdce-d7cf-4e51-b706-1ec8d931bc16)
+
+![Screenshot (6)](https://github.com/user-attachments/assets/8abd0bed-1e00-4ef9-b43c-90f1773f0b56)
+
+![Screenshot (7)](https://github.com/user-attachments/assets/bb3adfec-9406-4932-8133-43943bb813ee)
+
+![Screenshot (8)](https://github.com/user-attachments/assets/e62a4baa-00b4-490d-8f06-c06b6689cd87)
+
+![Screenshot (9)](https://github.com/user-attachments/assets/727481fd-d677-497c-9c3e-bb6287e542c7)
+
+![Screenshot (10)](https://github.com/user-attachments/assets/4446e06d-7861-48fa-b205-8d5f155ad814)
+
+![Screenshot (11)](https://github.com/user-attachments/assets/afbb80ff-4627-4014-a016-642504ed5107)
+
+
+
+
+
+
 
 # RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
