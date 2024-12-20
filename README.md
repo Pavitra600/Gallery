@@ -190,15 +190,8 @@ Publish the website in the given URL.
 
 ![Screenshot (6)](https://github.com/user-attachments/assets/8abd0bed-1e00-4ef9-b43c-90f1773f0b56)
 
-![Screenshot (7)](https://github.com/user-attachments/assets/bb3adfec-9406-4932-8133-43943bb813ee)
 
-![Screenshot (8)](https://github.com/user-attachments/assets/e62a4baa-00b4-490d-8f06-c06b6689cd87)
 
-![Screenshot (9)](https://github.com/user-attachments/assets/727481fd-d677-497c-9c3e-bb6287e542c7)
-
-![Screenshot (10)](https://github.com/user-attachments/assets/4446e06d-7861-48fa-b205-8d5f155ad814)
-
-![Screenshot (11)](https://github.com/user-attachments/assets/afbb80ff-4627-4014-a016-642504ed5107)
 
 
 
